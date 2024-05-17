@@ -16,7 +16,7 @@ export const Sidebar: FC<SidebarProps> = ({ size, pad }) => {
       <Stack
         alignItems={"center"}
         gap={2}
-        sx={{ padding: pad, flex: "0 0 auto", overflowY: "auto", width: size }}
+        sx={{ padding: pad, flex: "0 0 auto", overflowY: "auto", width: size}}
       >
         <Stack alignItems={"center"}>
           <Typography variant="body2">#programmer_life</Typography>
