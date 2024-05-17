@@ -4,6 +4,7 @@ import { Work } from "./Work"
 import { About } from "./About"
 import { Services } from "./Services"
 import { Journey } from "./Journey"
+import { Footer } from "./Footer"
 
 export const Mainpage = () => {
   
@@ -15,6 +16,7 @@ export const Mainpage = () => {
             <About />
             <Services />
             <Journey />
+            <Footer />
         </Stack>
     </>
   )
