@@ -1,13 +1,4 @@
-import { Code, DesignServices, Laptop } from "@mui/icons-material";
-import { Card, CardContent, Stack, Typography, useMediaQuery } from "@mui/material";
-
-function getRandomLightColor() {
-  const hue = Math.floor(Math.random() * 360);
-  const saturation = Math.floor(Math.random() * 21) + 80;
-  const lightness = Math.floor(Math.random() * 21) + 70;
-  const opacity = 1;
-  return `hsla(${hue}, ${saturation}%, ${lightness}%, ${opacity})`;
-}
+import { Card, Stack, Typography, useMediaQuery } from "@mui/material";
 
 const data = [
   {
@@ -65,25 +56,6 @@ const data = [
     description:
       "C++ is a general-purpose programming language created as an extension of the C programming language.",
     imageUrl: "https://cdn-icons-png.flaticon.com/128/6132/6132222.png",
-  },
-];
-
-const skills = [
-  {
-    icon: <Code />,
-    title: "Web Development",
-    skillsList:
-      "html, css, js, jquery, json, reactjs, angular, nextjs, typescript, material-ui, aos, bootstrap",
-  },
-  {
-    icon: <Laptop />,
-    title: "Programming and Other",
-    skillsList: "c, c++, java, python, flutter, mysql, dsa, php",
-  },
-  {
-    icon: <DesignServices />,
-    title: "Content Creation and Designing",
-    skillsList: "capcut, figma, canva, photoshop",
   },
 ];
 
