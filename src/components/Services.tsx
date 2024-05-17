@@ -68,32 +68,14 @@ export const Services = () => {
         <Typography variant={isMobile ? "body1" : "h6"}>WHAT I DO?</Typography>
         <Typography variant={isMobile ? "h5" : "h4"}>HERE ARE SOME OF MY EXPERTISE</Typography>
 
-        {/* 
-        <Stack gap={3} direction={"row"} flexWrap={"wrap"}>
-          {skills.map((skill, index) => (
-            <Card
-              key={index}
-              sx={{
-                borderBottomStyle: "solid",
-                borderBottomWidth: "3px",
-                borderBottomColor: getRandomLightColor(),
-              }}
-            >
-              <CardContent>
-                {skill.icon}
-                <Typography variant="h6">{skill.title}</Typography>
-                <Typography variant="body2" sx={{ textTransform: "uppercase" }}>
-                  {skill.skillsList}
-                </Typography>
-              </CardContent>
-            </Card>
-          ))}
-        </Stack>
-        */}
-
         <Stack
           gap={3}
-          sx={{ display: "flex", flexDirection: "row", flexWrap: "wrap" }}
+          sx={{ 
+            display: "flex",
+              flexDirection: "row",
+              flexWrap: "wrap",
+              justifyContent: "center",
+          }}
         >
           {data.map((item) => (
             <Card
@@ -101,6 +83,7 @@ export const Services = () => {
               sx={{
                 width: "280px",
                 borderRadius: "10px",
+                marginRight: "auto",
               }}
             >
               <Stack>

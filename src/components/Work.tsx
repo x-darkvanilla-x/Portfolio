@@ -22,12 +22,12 @@ const projects = [
     color: getRandomLightColor(),
   },
   {
-    websiteURL: "",
+    websiteURL: "https://github.com/x-darkvanilla-x/Weather-App",
     id: 2,
     image:
-      "https://moosend.com/wp-content/uploads/2019/03/Lemon-Squeezy-landing-page-example.png",
+      "https://github.com/x-darkvanilla-x/Weather-App/raw/main/src/Videos/WeatherApp.png",
     title: "Website 2",
-    description: "Another description here.",
+    description: "WeatherComponent is a React component that allows users to display current weather information based on their geolocation or a specific location.",
     shortDescription: "Short description 2",
     color: getRandomLightColor(),
   },
@@ -104,6 +104,7 @@ export const Work = () => {
 
   return (
     <div id="projects">
+
       <Stack gap={2} margin={"50px"}>
         <Typography variant={isMobile ? "body1" : "h6"}>MY WORK</Typography>
         <Typography variant={isMobile ? "h5" : "h4"}>
