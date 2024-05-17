@@ -43,14 +43,12 @@ export const Sidebar: FC<SidebarProps> = ({ size, pad }) => {
           <Email sx={{ verticalAlign: "middle" }} /> dipesh.adelkar@gmail.com
         </Typography>
 
-          {/*
         <Stack>
           <Button>Projects</Button>
           <Button>About</Button>
           <Button>Interest</Button>
           <Button>Education</Button>
         </Stack>
-         */}
 
         <Stack direction={"row"} gap={1}>
           <IconButton>
